@@ -1,10 +1,10 @@
-function select(className)
+export function select(className)
 {
     let a = document.querySelector('.' + className);
     return a;
 }
 
-function selectText(className)
+export function selectText(className)
 {
     let a = document.querySelector('.' + className).innerText;
     return a;
